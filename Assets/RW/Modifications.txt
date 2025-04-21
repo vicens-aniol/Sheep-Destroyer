@@ -1,0 +1,26 @@
+Modifications Made
+
+1. Created a new GameController script to manage sheep spawning and scoring
+2. Modified the original Sheep script to support different sheep types and scoring
+3. Created a new FastSheep script that inherits from the Sheep class
+4. Added a UIController script to manage the game UI
+5. Provided setup instructions for implementing the new features
+
+Functionalities Added
+
+1. Random Sheep Spawning System
+   - Sheep now spawn randomly from multiple spawn points
+   - Spawn timing is randomized between configurable minimum and maximum times
+   - Spawn locations are selected randomly from an array of transform points
+
+2. Multiple Sheep Types
+   - Added a new "Fast Sheep" type that moves more quickly
+   - Fast sheep are visually differentiated with a red color
+   - Fast sheep are worth more points when caught (2 points vs 1 point)
+   - The chance of spawning a fast sheep is configurable (default 30%)
+
+3. Scoring System
+   - Added a score counter that tracks caught sheep
+   - Different sheep types are worth different point values
+   - Score is displayed on the UI
+   - Score updates instantly when sheep are caught
